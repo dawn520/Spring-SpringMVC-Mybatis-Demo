@@ -45,7 +45,6 @@ public class IndexController {
         return "register";
     }
 
-
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public void register(HttpServletRequest request) {
         String username = request.getParameter("username");
